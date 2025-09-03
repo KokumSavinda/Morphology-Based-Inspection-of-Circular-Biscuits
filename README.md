@@ -1,6 +1,6 @@
 ## 📝 Description
 
-This project implements a lightweight, rule-based computer vision system to detect and classify defects in biscuit-shaped objects using only classical image processing techniques — no machine learning or deep learning was used.
+This project implements a lightweight, rule-based computer vision system to detect and classify defects in biscuit-shaped objects using only classical image processing techniques — no machine learning or deep learning was used. The method is designed for use under fixed lighting conditions, ensuring consistent thresholding and morphology-based analysis.
 
 Three main types of defects are detected:
 
@@ -13,6 +13,9 @@ Three main types of defects are detected:
 ⚫ Burned Biscuits: Over-darkened biscuits identified through intensity-based filtering
 
 A combination of morphological operations and contour analysis is used to isolate and classify these defects. The method is fast, interpretable, and suited for low-resource or real-time applications.
+
+<img width="559" height="812" alt="output" src="https://github.com/user-attachments/assets/25b22e51-62d3-4756-9ca2-6a7a931f81a3" />
+
 
 ## 🧠 Key Techniques
 
