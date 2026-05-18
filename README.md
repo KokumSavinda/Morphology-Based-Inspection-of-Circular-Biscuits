@@ -1,4 +1,4 @@
-## 📝 Description
+## Description
 
 This project implements a lightweight, rule-based computer vision system to detect and classify defects in biscuit-shaped objects using only classical image processing techniques — no machine learning or deep learning was used. The method is designed for use under fixed lighting conditions, ensuring consistent thresholding and morphology-based analysis.
 
@@ -17,7 +17,7 @@ A combination of morphological operations and contour analysis is used to isolat
 <img width="559" height="812" alt="output" src="https://github.com/user-attachments/assets/25b22e51-62d3-4756-9ca2-6a7a931f81a3" />
 
 
-## 🧠 Key Techniques
+## Key Techniques
 
 Piecewise Intensity Thresholding
 Instead of a single global threshold, multiple intensity ranges were used to better segment biscuit regions under variable lighting. A secondary threshold was applied to exclude dark (burned) regions.
@@ -36,7 +36,7 @@ Full circles are evaluated for cracks by analyzing internal contours on inverted
 Partial Detection
 Based on circularity and radius checks. Biscuits that are too small or deviate significantly from a circular shape are labeled partial.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - OpenCV
