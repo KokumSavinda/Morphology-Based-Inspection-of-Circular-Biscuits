@@ -43,7 +43,7 @@ Based on circularity and radius checks. Biscuits that are too small or deviate s
 - NumPy
 - Matplotlib (for visualization)
 
-## ⏱️ Time Constraint
+## Time Constraint
 
-⚠️ Note: This was an in-class machine vision task completed in under 2.5 hours.
+Note: This was an in-class machine vision task completed in under 2.5 hours.
 The focus was on demonstrating robust problem-solving using only morphological and rule-based methods, with no learning-based models.
